@@ -1,0 +1,31 @@
+.homeIndex{
+    width: 100%;
+    height: 100%;
+    .menu{
+        height:100%;
+        display: inline-block;
+        vertical-align: top;
+        .ant-menu-inline {
+            width: 200px;
+        }
+        .ant-menu{
+            height: 100%;
+        }
+    }
+    .content{
+        height: 100%;
+        width: calc(100% - 200px);
+        display: inline-block;
+        vertical-align: top;
+
+        .heard{
+            padding-left: 10px;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+    }
+    .contentMax{
+        width: calc(100% - 80px);
+    }
+}
